@@ -1,0 +1,5 @@
+interface:
+  display_name: "文档创作"
+  short_description: "按读者目的递进写作、修订与审阅，覆盖本地及在线文档与创作作品"
+policy:
+  allow_implicit_invocation: true
