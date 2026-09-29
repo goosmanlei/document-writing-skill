@@ -4,6 +4,8 @@ A Chinese-language Codex skill for drafting, revising, reviewing, and verifying 
 
 这是一个中文 Codex Skill，适用于报告、工作沟通、技术与学习材料、Agent 指令、故事及制作文档。它帮助 Agent 按读者目的组织内容，并在交付前检查事实、结构和实际产物。
 
+[在 skills.sh 查看此 Skill](https://skills.sh/goosmanlei/document-writing-skill/document-writing)
+
 ## 安装
 
 使用 [skills CLI](https://github.com/vercel-labs/skills) 安装到 Codex 的全局技能目录：
