@@ -6,13 +6,15 @@ A Chinese-language Codex skill for drafting, revising, reviewing, and verifying 
 
 ## 安装
 
-将本仓库放入 Codex 的技能目录，例如：
+使用 [skills CLI](https://github.com/vercel-labs/skills) 安装到 Codex 的全局技能目录：
 
 ```bash
-git clone https://github.com/goosmanlei/document-writing-skill.git ~/.codex/skills/document-writing
+npx skills add goosmanlei/document-writing-skill --skill document-writing -g -a codex
 ```
 
-仓库根目录的 `SKILL.md` 是入口；`references/` 是按任务读取的参考文件，`agents/openai.yaml` 提供显示名称和隐式调用设置。安装后可在任务中明确使用 `$document-writing`，也可直接提出文档创作或修订需求。
+想先查看仓库中可安装的技能，可运行 `npx skills add goosmanlei/document-writing-skill --list`。安装后可在任务中明确使用 `$document-writing`，也可直接提出文档创作或修订需求。
+
+Skill 位于 [`skills/document-writing/`](skills/document-writing/SKILL.md)：`SKILL.md` 是入口，`references/` 是按任务读取的参考文件，`agents/openai.yaml` 提供 Codex 显示名称和隐式调用设置。
 
 ## 使用范围
 
